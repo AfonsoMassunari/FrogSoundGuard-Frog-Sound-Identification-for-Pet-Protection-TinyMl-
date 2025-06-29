@@ -1,4 +1,4 @@
-# FrogSoundGuard Frog Sound Identification for Pet Protection Using TinyMl-
+# FrogSoundGuard Frog Sound Identification for Pet Protection Using TinyMl
 In this project, we explore the implementation of a sound classification system using TinyML techniques on an embedded platform. The goal was to develop a lightweight and efficient neural network capable of distinguishing between frog vocalizations and ambient sounds. The system was developed using the Arduino Nano 33 BLE Sense board, a low-power microcontroller with integrated sensors and support for machine learning applications.
 
 For model training, two datasets were used: the Anuran Sound Dataset, which contains recordings of frog vocalizations, and the Noise Audio Dataset, composed of various environmental sounds. The data were processed to standardize the sampling rate at 16 kHz, ensuring compatibility with the embedded audio processing pipeline. Signal features were extracted using the Mel Frequency Energy (MFE) method, suitable for representing relevant information in acoustic recognition tasks.
